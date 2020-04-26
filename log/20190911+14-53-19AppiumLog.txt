@@ -1,0 +1,8 @@
+2019-09-11 14:53:35:088 [Appium] Welcome to Appium v1.14.2
+2019-09-11 14:53:35:091 [Appium] Non-default server args:
+2019-09-11 14:53:35:092 [Appium]   address: 127.0.0.1
+2019-09-11 14:53:35:093 [Appium]   port: 12345
+2019-09-11 14:53:35:095 [Appium]   logFile: log/20190911+14-53-19AppiumLog.txt
+2019-09-11 14:53:35:096 [Appium]   logTimestamp: true
+2019-09-11 14:53:35:096 [Appium]   localTimezone: true
+2019-09-11 14:53:35:222 [Appium] Appium REST http interface listener started on 127.0.0.1:12345

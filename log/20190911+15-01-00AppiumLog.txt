@@ -1,0 +1,65 @@
+2019-09-11 15:01:02:107 [Appium] Welcome to Appium v1.14.2
+2019-09-11 15:01:02:109 [Appium] Non-default server args:
+2019-09-11 15:01:02:110 [Appium]   address: 127.0.0.1
+2019-09-11 15:01:02:110 [Appium]   port: 12345
+2019-09-11 15:01:02:111 [Appium]   logFile: log/20190911+15-01-00AppiumLog.txt
+2019-09-11 15:01:02:111 [Appium]   logTimestamp: true
+2019-09-11 15:01:02:112 [Appium]   localTimezone: true
+2019-09-11 15:01:02:149 [Appium] Appium REST http interface listener started on 127.0.0.1:12345
+2019-09-11 15:01:11:238 [HTTP] --> POST /wd/hub/session
+2019-09-11 15:01:11:240 [HTTP] {"desiredCapabilities":{"PlatformName":"Android","appActivity":".activity.SplashActivity","appPackage":"com.hexinpass.shequ","noReset":true,"noSign":true,"platformVersion":"127.0.0.1:7555","unicodeKeyboard":true,"platformName":"Android","udid":"6.0.1","deviceName":"6.0.1","resetKeyboard":true},"capabilities":{"firstMatch":[{"PlatformName":"Android","appium:appActivity":".activity.SplashActivity","appium:appPackage":"com.hexinpass.shequ","appium:deviceName":"6.0.1","appium:noReset":true,"appium:noSign":true,"platformName":"android","appium:platformVersion":"127.0.0.1:7555","appium:resetKeyboard":true,"appium:udid":"6.0.1","appium:unicodeKeyboard":true}]}}
+2019-09-11 15:01:11:245 [W3C] Calling AppiumDriver.createSession() with args: [{"PlatformName":"Android","appActivity":".activity.SplashActivity","appPackage":"com.hexinpass.shequ","noReset":true,"noSign":true,"platformVersion":"127.0.0.1:7555","unicodeKeyboard":true,"platformName":"Android","udid":"6.0.1","deviceName":"6.0.1","resetKeyboard":true},null,{"firstMatch":[{"PlatformName":"Android","appium:appActivity":".activity.SplashActivity","appium:appPackage":"com.hexinpass.shequ","appium:deviceName":"6.0.1","appium:noReset":true,"appium:noSign":true,"platformName":"android","appium:platformVersion":"127.0.0.1:7555","appium:resetKeyboard":true,"appium:udid":"6.0.1","appium:unicodeKeyboard":true}]}]
+2019-09-11 15:01:11:247 [BaseDriver] Event 'newSessionRequested' logged at 1568185271246 (15:01:11 GMT+0800 (GMT+08:00))
+2019-09-11 15:01:11:257 [Appium] 
+2019-09-11 15:01:11:258 [Appium] ======================================================================
+2019-09-11 15:01:11:259 [Appium]   DEPRECATION WARNING:
+2019-09-11 15:01:11:260 [Appium] 
+2019-09-11 15:01:11:261 [Appium]   The 'automationName' capability was not provided in the desired 
+2019-09-11 15:01:11:262 [Appium]   capabilities for this Android session
+2019-09-11 15:01:11:262 [Appium] 
+2019-09-11 15:01:11:263 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2019-09-11 15:01:11:264 [Appium]   UiAutomator2 Driver
+2019-09-11 15:01:11:264 [Appium] 
+2019-09-11 15:01:11:265 [Appium]   The next major version of Appium (2.x) will **require** the 
+2019-09-11 15:01:11:266 [Appium]   'automationName' capability to be set for all sessions on all 
+2019-09-11 15:01:11:266 [Appium]   platforms
+2019-09-11 15:01:11:267 [Appium] 
+2019-09-11 15:01:11:268 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2019-09-11 15:01:11:269 [Appium]   'automationName=UiAutomator1'
+2019-09-11 15:01:11:269 [Appium] 
+2019-09-11 15:01:11:270 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2019-09-11 15:01:11:271 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2019-09-11 15:01:11:272 [Appium] 
+2019-09-11 15:01:11:273 [Appium]   For more information about drivers, please visit 
+2019-09-11 15:01:11:274 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2019-09-11 15:01:11:274 [Appium]   'Drivers' menu
+2019-09-11 15:01:11:275 [Appium] 
+2019-09-11 15:01:11:278 [Appium] ======================================================================
+2019-09-11 15:01:11:279 [Appium] 
+2019-09-11 15:01:12:765 [Appium] Appium v1.14.2 creating new AndroidUiautomator2Driver (v1.33.1) session
+2019-09-11 15:01:12:767 [Appium] Capabilities:
+2019-09-11 15:01:12:769 [Appium]   PlatformName: Android
+2019-09-11 15:01:12:771 [Appium]   platformName: android
+2019-09-11 15:01:12:772 [Appium]   appActivity: .activity.SplashActivity
+2019-09-11 15:01:12:774 [Appium]   appPackage: com.hexinpass.shequ
+2019-09-11 15:01:12:775 [Appium]   deviceName: 6.0.1
+2019-09-11 15:01:12:776 [Appium]   noReset: true
+2019-09-11 15:01:12:778 [Appium]   noSign: true
+2019-09-11 15:01:12:779 [Appium]   platformVersion: 127.0.0.1:7555
+2019-09-11 15:01:12:780 [Appium]   resetKeyboard: true
+2019-09-11 15:01:12:781 [Appium]   udid: 6.0.1
+2019-09-11 15:01:12:782 [Appium]   unicodeKeyboard: true
+2019-09-11 15:01:12:787 [BaseDriver] W3C capabilities {"alwaysMatch":{"appium:Pla... and MJSONWP desired capabilities {"PlatformName":"Android","... were provided
+2019-09-11 15:01:12:788 [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"appium:Pla...
+2019-09-11 15:01:12:790 [UiAutomator2] Deleting UiAutomator2 session
+2019-09-11 15:01:12:792 [BaseDriver] Event 'newSessionStarted' logged at 1568185272791 (15:01:12 GMT+0800 (GMT+08:00))
+2019-09-11 15:01:12:847 [W3C] Encountered internal error running command: InvalidArgumentError: The capabilities ["PlatformName"] are standard capabilities and should not have the "appium:" prefix
+2019-09-11 15:01:12:848 [W3C]     at stripAppiumPrefixes (D:\android\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\capabilities.js:99:11)
+2019-09-11 15:01:12:849 [W3C]     at stripAppiumPrefixes (D:\android\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\capabilities.js:147:3)
+2019-09-11 15:01:12:849 [W3C]     at parseCaps (D:\android\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\capabilities.js:199:43)
+2019-09-11 15:01:12:850 [W3C]     at AndroidUiautomator2Driver.createSession (D:\android\npm\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\session.js:37:14)
+2019-09-11 15:01:12:852 [W3C]     at AndroidUiautomator2Driver.createSession (D:\android\npm\node_modules\appium\node_modules\appium-uiautomator2-driver\lib\driver.js:150:43)
+2019-09-11 15:01:12:853 [W3C]     at AppiumDriver.createSession (D:\android\npm\node_modules\appium\lib\appium.js:362:43)
+2019-09-11 15:01:12:854 [W3C]     at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-09-11 15:01:12:860 [HTTP] <-- POST /wd/hub/session 400 1621 ms - 1205
+2019-09-11 15:01:12:860 [HTTP] 
